@@ -10,7 +10,8 @@ class Message:
 			"Inspecting", "Interrogating", "Shaking", "Shifting", 
 			"Reticulating", "Synthesizing", "Splurging", "BLASTing",
 			"Inserting", "Hand-crafting", "Aligning", "Twiddling",
-			"Sorting", "Downsampling"
+			"Sorting", "Downsampling", "Compressing", "Normalising",
+			"Refreshing", "Salting", "Transposing"
 		]
 		self.nouns = [
 			"data", "the cloud", "DNA", "nucleotides", "RAM",
@@ -18,7 +19,8 @@ class Message:
 			"Python", "CSV", "files", "computer", "extensions", "URLs",
 			"domains", "IP addresses", "equations", "user-interface",
 			"FASTQs", "cores", "syntax", "bits and bytes", "ALL THE THINGS",
-			"Excel", "mongoDB", "blockchain"
+			"Excel", "mongoDB", "blockchain", "Dockers", "Flask", "codons",
+			"hashes"
 		]
 
 
