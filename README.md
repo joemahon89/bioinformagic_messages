@@ -1,6 +1,8 @@
 # Bioinformagic Messages
 
 Generate completely useless bioinformatics-related loading messages.
+Insert into any project to show users just how :sparkles: _advanced_ and 
+_clever_ :sparkles: your application is 
 
 #### Usage
 ```python
