@@ -11,16 +11,17 @@ class Message:
 			"Reticulating", "Synthesizing", "Splurging", "BLASTing",
 			"Inserting", "Hand-crafting", "Aligning", "Twiddling",
 			"Sorting", "Downsampling", "Compressing", "Normalising",
-			"Refreshing", "Salting", "Transposing"
+			"Refreshing", "Salting", "Transposing", "Hashing", 
+			"Building", "Yeeting", "Calculating"
 		]
 		self.nouns = [
 			"data", "the cloud", "DNA", "nucleotides", "RAM",
-			"AI", "algorithms", "sequences", "pipettes", "00010111001",
+			"AI", "algorithms", "sequences", "00010111001", "Firewall"
 			"Python", "CSV", "files", "computer", "extensions", "URLs",
 			"domains", "IP addresses", "equations", "user-interface",
 			"FASTQs", "cores", "syntax", "bits and bytes", "ALL THE THINGS",
 			"Excel", "mongoDB", "blockchain", "Dockers", "Flask", "codons",
-			"hashes"
+			"hashes", "JSON", "Cryptography", 
 		]
 
 
