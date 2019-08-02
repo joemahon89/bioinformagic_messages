@@ -1,0 +1,1 @@
+from bioinformagic_messages.bioinformagic_messages import Message
