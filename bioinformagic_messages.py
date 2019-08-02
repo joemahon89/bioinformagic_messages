@@ -29,3 +29,6 @@ class Message:
 		error = " ".join([random.choice(self.verbs), random.choice(self.nouns)])
 		return error
 
+
+if __name__ == "__main__":
+	pass
