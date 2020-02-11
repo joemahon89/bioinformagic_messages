@@ -29,6 +29,49 @@ class Message:
 		error = " ".join([random.choice(self.verbs), random.choice(self.nouns)])
 		return error
 
+class ModuleName:
+	def __init__(self):
+		self.prefixes = ["Introduction to", "Advanced", "IT for", 
+						"Whole systems", "Applied"]
+		self.adjectives = ["clinical", "research", "health", "advanced",
+							"professional"]
+		self.subjects = ["bioinformatics", "genetics", "informatics",
+						"healthcare", "science", "IT", "practice", 
+						"leadership"]
+
+	def random_module(self):
+		# Core messages
+		message_1 = " ".join([random.choice(self.prefixes), 
+							random.choice(self.adjectives),
+							random.choice(self.subjects),])
+
+		message_2 = " ".join([random.choice(self.prefixes), 
+							random.choice(self.subjects),])
+		# Extra messages
+		message_a = " ".join([random.choice(self.adjectives), 
+							random.choice(self.subjects),])
+		message_b = " ".join([random.choice(self.subjects),])
+
+
+		extras = ["yes", "no"]
+		add_extras = random.choice(extras)
+		initials = [message_1, message_2]
+		message_joiners = ["and", "with"]
+		extras = [message_a, message_b]
+
+
+		if add_extras == "yes":
+			module_name = " ".join([random.choice(initials),
+									random.choice(message_joiners),
+									random.choice(extras),])
+		else:
+			module_name = " ".join([random.choice(initials),
+									random.choice(message_joiners),
+									random.choice(extras),])
+		return module_name		
+
+
+
 
 if __name__ == "__main__":
 	pass
